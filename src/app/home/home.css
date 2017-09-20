@@ -1,0 +1,92 @@
+h4 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 270%;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  color: #642179;
+  margin: 0px;
+  font-weight: 200;
+  text-align: center;
+}
+.jumbotron h1, .jumbotron .h1 {
+  color: inherit;
+  text-align: center;
+  color: rgba(2, 47, 90, 0.97);
+}
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background: rgb(207, 207, 207);
+  margin: 10px;
+  padding: 10px;
+ 
+}h4 {
+  color: #040505;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 277%;
+  /* background: azure; */
+}
+.form-control[_ngcontent-c0] {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 2rem;
+    line-height: 1.25;
+    color: rgb(238, 238, 238);
+    background-color: rgb(35, 43, 56);
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+ .panel-primary>.panel-heading {
+  color: #ffffff;
+  background-color: #2fa4e7;
+  border-color: #1786cc;
+  background: #1FAD92;
+  padding: 33px;
+  margin: -13px;
+}
+.panel-warning>.panel-heading{
+
+  color: #ffffff;
+  background-color: #2fa4e7;
+  border-color: #1786cc;
+  background:#317eac;
+  padding: 33px;
+  margin: -13px;
+} 
+.panel-success >.panel-heading{
+  
+    color: #ffffff;
+    background-color: #2fa4e7;
+    border-color: #1786cc;
+    background:#30AAAC;
+    padding: 33px;
+    margin: -13px;
+  } .form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color:black;
+    background-color: rgb(65, 141, 255);
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */        // isme filed fill green nhi to red show hogi
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+  }
